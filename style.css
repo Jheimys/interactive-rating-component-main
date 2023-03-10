@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-Orange: hsl(25, 97%, 53%);
+    --cor-White: hsl(0, 0%, 100%);
+    --cor-Light-Grey: hsl(217, 12%, 63%);
+    --cor-Medium-Grey: hsl(216, 12%, 54%);
+    --cor-Dark-Blue: hsl(213, 19%, 18%);
+    --cor-Very-Dark-Blue: hsl(216, 12%, 8%);
+
+    --berkshire-font-family: 'Berkshire Swash', cursive;
+    --inter-font-family: 'Inter', sans-serif;
+    --overpass-font-family: 'Overpass', sans-serif;
+    --roboto-font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-size: 15px;
+    background: var(--cor-Very-Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--overpass-font-family);
+}
+
+.card {
+ background: var(--cor-Dark-Blue);
+ width: 375px;
+ padding: 30px;
+ border-radius: 20px;
+}
+
+.star{
+    background: var(--cor-Light-Grey);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+h1{
+    color: var(--cor-White);
+    margin: 20px 0;
+}
+
+p{
+    color: var(--cor-Light-Grey);
+    font-family: var(--inter-font-family);
+    font-size: 13px;
+    line-height: 1.5em;  
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+li{
+    color: var(--cor-White);
+    /* font-weight: bold;   */
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid var(--cor-Medium-Grey);
+    width: 40px;
+    height: 40px;
+    background: var(--cor-Medium-Grey);
+    border-radius: 100%;
+    cursor: pointer;
+    /* font-family: var(--inter-font-family);    */
+}
+
+.newLi{
+    color: var(--cor-White);
+    /* font-weight: bold;   */
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid var(--cor-Medium-Grey);
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 100%;
+    cursor: pointer;
+    /* font-family: var(--inter-font-family);    */
+}
+
+li:hover {
+    background-color: var(--cor-Orange);
+    color: var(--cor-White);
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
+
+button {
+    background: var(--cor-Orange);
+    color: var(--cor-White);
+    padding: 10px;
+    width: 320px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    margin: 15px 0;
+    cursor: pointer;
+    letter-spacing: 2.5px;
+}
+
+button:hover{
+    background: var(--cor-White);
+    color: var(--cor-Orange);
+}
+
+/* #################### Thank you state start ########################## */
+
+.card__img{
+    text-align: center;
+}
+
+.card__paragraph p{
+    text-align: center;
+    border: 1px solid var(--cor-Medium-Grey);
+    background: var(--cor-Medium-Grey);
+    color: var(--cor-Orange);
+    font-weight: bolder;
+    padding: 5px 0;
+    border-radius: 20px;
+    margin: 20px auto;
+     width: 200px;
+}
+
+.card__title h2{
+    text-align: center;
+    margin: 30px 0 10px 0;
+    color: white;
+}
+
+.card__lastParagraph p{
+    text-align: center;
+    line-height: 1.5em;
+     font-size: 13px;
+    font-family: var(--inter-font-family);  
+}
