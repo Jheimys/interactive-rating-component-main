@@ -8,7 +8,7 @@
 
 Obrigado pela visita e fique a vontade!
 
-Estou sempre buscando melhorar meu código, para feedback:
+Estou sempre buscando melhorar meu código, para me ajudar com feedback:
 
 [Linkedin](https://www.linkedin.com/in/jheimys/)
 
@@ -16,7 +16,7 @@ james_bassani@yahoo.com
 
 ## O Projeto
 
-Nesse projeto foi construido um componente de classificação interativa, onde o usuário pode avaliar um produto de 1 à 5, após fazer a avaliação uma mensagem de agradecimento é enviada com o feedback da nota escolhida. Esse projeto foi realizado a partir de um desafio do site do Frontend Mentor.
+Nesse projeto foi construido um componente de classificação interativa, em que o usuário pode avaliar um produto de 1 à 5, após fazer a avaliação uma mensagem de agradecimento é enviada com o feedback da nota escolhida. Esse projeto foi realizado a partir de um desafio do site do Frontend Mentor.
 
 ![rating1](https://github.com/Jheimys/assets/blob/master/rating_1.png)
 ![rating2](https://github.com/Jheimys/assets/blob/master/rating_2.png)
