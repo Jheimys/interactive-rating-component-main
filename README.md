@@ -16,7 +16,7 @@ james_bassani@yahoo.com
 
 ## O Projeto
 
-Nesse projeto foi construido um componente de classificação interativa, onde o usuário pode avaliar um produto de 1 à 5, após fazer a avaliação uma messagem de agradecimento é enviada. Esse projeto foi realizado a partir de desafio do site do Frontend Mentor.
+Nesse projeto foi construido um componente de classificação interativa, onde o usuário pode avaliar um produto de 1 à 5, após fazer a avaliação uma mensagem de agradecimento é enviada. Esse projeto foi realizado a partir de desafio do site do Frontend Mentor.
 
 ![rating1](https://github.com/Jheimys/assets/blob/master/rating_1.png)
 ![rating2](https://github.com/Jheimys/assets/blob/master/rating_2.png)
